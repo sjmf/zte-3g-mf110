@@ -39,6 +39,8 @@ fi
 
 
 echo "# Run 3g dongle connect script"  >> /etc/rc.local
+echo "echo "Run 3g dongle connect script"  >> /etc/rc.local
 echo "/opt/3g/3g.sh >/dev/null 2>&1 &" >> /etc/rc.local
+chmod +x /etc/rc.local
 
 echo "Done."
