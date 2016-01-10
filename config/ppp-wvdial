@@ -1,0 +1,5 @@
+name wvdial
+noauth
+usepeerdns
+defaultroute
+replacedefaultroute

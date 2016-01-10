@@ -1,0 +1,13 @@
+############################################
+# ZTE 3G Dongle
+
+DefaultVendor= 0x19d2
+DefaultProduct=0x0103
+
+TargetVendor=  0x19d2
+TargetProduct= 0x0031
+
+MessageContent="55534243123456782000000080000c85010101180101010101000000000001"
+#MessageContent="5553424312345678240000008000061b000000020000000000000000000000"
+NeedResponse=1
+
