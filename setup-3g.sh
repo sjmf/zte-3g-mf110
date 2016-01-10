@@ -1,4 +1,5 @@
 #!/bin/bash
+cd "$(dirname "$0")"
 # Set up 3g usb dongle ZTE WCDMA Technologies MSM MF110
 
 if [ "$EUID" -ne 0 ]; then
